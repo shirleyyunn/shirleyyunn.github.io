@@ -1,13 +1,3 @@
-let window1;
-let window2;
-
-
-function windowMove(x, y, delay){
-      setTimeout(function() {
-      window1.moveTo(x, y);
-    }, delay);
-}
-// BUTTONS ON EXPLORE PAGE 
 document.addEventListener('DOMContentLoaded', function() {
 const explore1 = document.getElementById('click1');
 
@@ -29,10 +19,8 @@ document.addEventListener('DOMContentLoaded', function() {
 const explore2 = document.getElementById('click2');
 
   explore2.onclick = function() {
-      // Open a new tab/window with a specified URL
     window.open("https://www.coolmathgames.com/", "_blank", "width=400, height=300,top=100,left=50");
     window.open("https://www.animaljam.com/en", "_blank", "width=400, height=300, top=150, left=50");
-    windowMove(500,500,5);
   };
 });
 
@@ -41,7 +29,6 @@ document.addEventListener('DOMContentLoaded', function() {
 const explore3 = document.getElementById('click3');
 
   explore3.onclick = function () {   
-    // Array of image URLs to open
     const imageUrls = [
         'archives/imgs/me1.jpeg',
         'archives/imgs/niu 7.jpeg',
@@ -50,18 +37,12 @@ const explore3 = document.getElementById('click3');
         'archives/imgs/IMG_1948.jpeg'
     ];
 
-    // Loop through the array and open each image in a new window/tab
     imageUrls.forEach(url => {
       const screenWidth = window.screen.availWidth;
       const screenHeight = window.screen.availHeight;
-
-      // Generate random X and Y positions
-      // Adjust max values to prevent images from going off-screen,
-      // considering a typical image size (e.g., 200px width/height)
       const randomX = Math.floor(Math.random() * (screenWidth));
       const randomY = Math.floor(Math.random() * (screenHeight));
 
-      // Open a new window for each image
       window.open(url, '_blank', `width=300,height=270,left=${randomX},top=${randomY}`);
     });
   }
