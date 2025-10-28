@@ -1,0 +1,188 @@
+
+body {
+  display:flex;
+  justify-content: center;
+}
+
+#explore {
+background-image: url("Screenshot\ 2025-10-15\ at\ 5.34.04\ PM.png");
+background-size: cover;
+background-attachment: fixed;
+opacity: 75%;
+}
+
+.container {
+  background-image: url('texture.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+p {
+  color: black;
+  font-family: "Instrument Serif";
+  padding: 1rem 1.5rem;
+  font-size: 1.25em;
+  width: fit-content;
+  border-radius: 100px;
+  background: #00E1FF;
+  box-shadow: 0 0 20px #00E1FF, 0 0 20px #00E1FF, 0 0 20px #00E1FF, 0 0 10px #00E1FF, 0 0 10px #00E1FF, 0 0 10px #00E1FF, 0 0 10px #00E1FF;
+  transition: all 0.3s ease-in-out;
+}
+
+p:hover{
+  box-shadow: 0 0 50px #00E1FF, 0 0 40px #00E1FF, 0 0 40px #00E1FF,0 0 40px #00E1FF,0 0 20px #00E1FF, 0 0 10px #00E1FF, 0 0 10px #00E1FF, 0 0 10px #00E1FF, 0 0 10px '#00E1FF';
+}
+
+.intro {
+  font-family: "Instrument Serif";
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
+.intro:hover {
+  font-size: 1.3em;
+  transition: all .3s ease-in-out;
+}
+
+button {
+  border:none;
+  color: black;
+  font-family: "Instrument Serif";
+  padding: 1rem 1.5rem;
+  font-size: 1.25em;
+  width: fit-content;
+  border-radius: 100px;
+}
+
+#fadeIn {
+
+  animation: 4s fadeIn forwards; 
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  50% {opacity:.5;}
+  100% {opacity:1;}
+}
+
+.fadeIn:nth-child(1) { animation-delay: 2s; }
+
+.explore1 {
+  font-size: .8em;
+  font-weight: 100;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  padding: .6em;
+  animation-delay: 1s;
+  background:#5eff3d;
+  box-shadow: 0 0 20px 20px #5eff3d;
+}
+
+.explore1:hover{
+  font-size: 1em;
+  box-shadow: 0 0 50px #5eff3d, 0 0 40px #5eff3d, 0 0 40px #5eff3d,0 0 40px #5eff3d,0 0 20px #5eff3d, 0 0 10px #5eff3d, 0 0 10px #5eff3d, 0 0 10px #5eff3d, 0 0 10px '#5eff3d';
+  transition: all 0.3s ease-in-out;
+}
+
+.explore2 {
+  width: 190px;
+  justify-content: center;
+  font-size: .8em;
+  font-weight: 100;
+  position: absolute;
+  top: 50%;
+  left: 65%;
+  padding: .6em;
+  animation-delay: 1.5s;
+  background:#ff2977;
+  box-shadow: 0 0 20px 20px #ff2977;
+}
+
+.explore2:hover{
+  font-size: 1em;
+  box-shadow: 0 0 50px #ff2977, 0 0 40px #ff2977, 0 0 40px #ff2977,0 0 40px #ff2977,0 0 20px #ff2977, 0 0 10px #ff2977, 0 0 10px #ff2977, 0 0 10px #ff2977, 0 0 10px '#ff2977';
+  transition: all 0.3s ease-in-out;
+}
+
+.explore3 {
+  width: 190px;
+  justify-content: center;
+  font-size: .8em;
+  font-weight: 100;
+  position: absolute;
+  top: 15%;
+  left: 40%;
+  padding: .6em;
+  animation-delay: 1.5s;
+  background:#03b1fc;
+  box-shadow: 0 0 20px 20px #03b1fc;
+}
+
+.explore3:hover{
+  font-size: 1em;
+  box-shadow: 0 0 50px #03b1fc, 0 0 40px #03b1fc, 0 0 40px #03b1fc,0 0 40px #03b1fc,0 0 20px #03b1fc, 0 0 10px #03b1fc, 0 0 10px #03b1fc, 0 0 10px #03b1fc, 0 0 10px '#03b1fc';
+  transition: all 0.3s ease-in-out;
+}
+
+.explore4 {
+  width: 190px;
+  justify-content: center;
+  font-size: .8em;
+  font-weight: 100;
+  position: absolute;
+  top: 65%;
+  left: 10%;
+  padding: .6em;
+  animation-delay: 1.5s;
+  background:#ffcc12;
+  box-shadow: 0 0 20px 20px #ffcc12;
+}
+
+.explore4:hover{
+  font-size: 1em;
+  box-shadow: 0 0 50px #ffcc12, 0 0 40px #ffcc12, 0 0 40px #ffcc12,0 0 40px #ffcc12,0 0 20px #ffcc12, 0 0 10px #ffcc12, 0 0 10px #ffcc12, 0 0 10px #ffcc12, 0 0 10px '#ffcc12';
+  transition: all 0.3s ease-in-out;
+}
+
+.pulsing {
+  animation: pulse 2s infinite alternate;
+}
+
+.pulsing-alt {
+  animation: pulse-alt 1.7s infinite alternate;
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(1);
+  } to {
+    transform: scale(1.1);
+  }
+}
+
+@keyframes pulse-alt {
+  from {
+    transform: scale(1.1);
+  } to {
+    transform: scale(1);
+  }
+}
+
+#option1 {
+  position: absolute;
+  top: 25%;
+  left: 15%;
+}
+
+#option2 {
+  position: absolute;
+  top: 55%;
+  left: 55%;
+}
+
+#main {
+  position: absolute;
+  top: 40%;
+}
