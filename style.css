@@ -22,15 +22,25 @@ p {
   font-family: "Instrument Serif";
   padding: 1rem 1.5rem;
   font-size: 1.25em;
-  width: fit-content;
+}
+
+
+p:hover{
+  box-shadow: 0 0 50px #00E1FF, 0 0 40px #00E1FF, 0 0 40px #00E1FF,0 0 40px #00E1FF,0 0 20px #00E1FF, 0 0 10px #00E1FF, 0 0 10px #00E1FF, 0 0 10px #00E1FF, 0 0 10px '#00E1FF';
+}
+
+.msg{
   border-radius: 100px;
   background: #00E1FF;
   box-shadow: 0 0 20px #00E1FF, 0 0 20px #00E1FF, 0 0 20px #00E1FF, 0 0 10px #00E1FF, 0 0 10px #00E1FF, 0 0 10px #00E1FF, 0 0 10px #00E1FF;
   transition: all 0.3s ease-in-out;
 }
 
-p:hover{
-  box-shadow: 0 0 50px #00E1FF, 0 0 40px #00E1FF, 0 0 40px #00E1FF,0 0 40px #00E1FF,0 0 20px #00E1FF, 0 0 10px #00E1FF, 0 0 10px #00E1FF, 0 0 10px #00E1FF, 0 0 10px '#00E1FF';
+.instruction{
+  position: absolute;
+  font-size: 1em;
+  top: 100%;
+  left: 4%;
 }
 
 .intro {
