@@ -1,4 +1,4 @@
-# weird-web *:･ﾟ✧
+# weird-web 
 
 ### welcome to my weird, wonderful web 💻
 
@@ -7,4 +7,4 @@ an exploration into what a more personal, poetic, web would looklike. data and w
 
 explore my web with me! ⭐️
 
-code related to a screen performance also included! personal to my own machine, but files can be replaced to be personal to you, experience your machine performing for you. *:･ﾟ✧
+code related to a screen performance also included! personal to my own machine, but files can be replaced to be personal to you, experience your machine performing for you.
